@@ -1,0 +1,107 @@
+<!--================================
+  ProyectoHTml/WEB/index.html
+======================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+     <!--NO COFUNDIR HEAD CON HEADER-->
+     <!--METADATOS-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-FOTOGRAFIA</title>
+
+     <!--  CSS -->
+     <!-- <link rel="stylesheet" href="nombre_de_mi_fichero_css.css"> -->
+
+</head>
+
+<body>
+    <header>
+        <h1>📷LA FOTOTECA📷</h1>
+        <nav>
+            <a href="#encabezados">Inicio</a> |
+            <a href="#tiposdecamarayaccesorios">Tipos de camara & Accesorios</a> |
+            <a href="#Contacto">Contacto</a> |
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="encabezados">
+            <h1>·CURSOS DE FOTOGRAFIA·</h1>
+            <h1>Fotografías de paisaje</h1>
+            <p>Descripción: Enfocada en mostrar la belleza de la naturaleza o del entorno.
+                Montañas, playas, desiertos, bosques.
+                Amaneceres o atardeceres.
+                Panorámicas de ciudades (paisaje urbano).</p>
+            <h1>Fotografía de retrato</h1>
+             <p>Descripción: Captura la personalidad, emociones o expresión de una persona o grupo.
+                Ejemplos:Retratos profesionales en estudio.Fotos familiares o de pareja.
+                Retratos artísticos en exteriores.</p>
+            <h1>Fotografía urbana o de calle</h1>
+            <h1>Fotografía de naturaleza o vida salvaje</h1>
+            <h1>Fotografía gastronómica</h1>
+            <h1>Fotografía de arquitectura</h1>
+            <h1>Fotografía de moda</h1>
+            <h1>Fotografía de producto</h1>
+            <h1>Fotografía conceptual o artística</h1>
+            <h1>Fotografía de eventos</h1>
+            <h1>Fotografía nocturna o de larga exposición</h1>
+        </section>
+
+
+        <section id="tiposdecamarayaccesorios">
+            <h3>Tipos de camaras</h3>
+            <ul> <!-- Lista desordenada -->
+
+                <li>Cámara réflex digital (DSLR)</li>
+                <li>Cámara sin espejo (Mirrorless)</li>
+                <li>Cámara de formato medio</li>
+                <li>Cámara de gran formato</li>
+                <li>Cámara compacta</li>
+                <li>Cámara de acción (Action Camera)</li>
+                <li>Cámara instantánea</li>
+                <li>Cámara de película (analógica)</li>
+                </ul>                
+
+            <h4>Accesorios de fotografía</h4>
+            <ol type="A"> <!--Lista ordenada-->
+            <!-- type="A" para numeración con letras mayúsculas -->              
+                <li>Trípode</li>
+                <li>Filtros de lente</li>
+                <li>Flash externo</li>
+                <li>Reflectores</li>
+                <li>Disparador remoto</li>
+                <li>Bolsa o mochila para cámara</li>
+                <li>Tarjetas de memoria adicionales</li>
+                <li>Baterías extra</li>
+            </ol>
+        
+        </section>
+        
+        <section id="Contacto">
+            <h6>Formulario de contacto para fotógrafos</h6>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            <p>
+              <a href="https://www.istockphoto.com/es">Banco de imágenes iStock</a> <!-- Enlace a banco de imágenes -->
+            </p>
+        </section>
+        </main>
+    <footer> 
+        <p>© 2025 La Fototeca. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
